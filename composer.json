@@ -19,7 +19,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.0-beta.7"
+            "dev-master": "0.1.0-beta-dev"
         },
         "flarum-extension": {
             "title": "ภาษาไทย",
