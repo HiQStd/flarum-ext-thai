@@ -1,5 +1,8 @@
 ## เกี่ยวกับแพคเกจ
-[![Latest Stable Version](https://poser.pugx.org/brarear/flarum-ext-thai/v/stable)](https://packagist.org/packages/brarear/flarum-ext-thai) [![Latest Unstable Version](https://poser.pugx.org/brarear/flarum-ext-thai/v/unstable)](https://packagist.org/packages/brarear/flarum-ext-thai) [![License](https://poser.pugx.org/brarear/flarum-ext-thai/license)](https://packagist.org/packages/brarear/flarum-ext-thai) [![Total Downloads](https://poser.pugx.org/brarear/flarum-ext-thai/downloads)](https://packagist.org/packages/brarear/flarum-ext-thai)
+[![Latest Stable Version](https://poser.pugx.org/hiqstd/flarum-ext-thai/v/stable)](https://packagist.org/packages/hiqstd/flarum-ext-thai)
+[![Latest Unstable Version](https://poser.pugx.org/hiqstd/flarum-ext-thai/v/unstable)](https://packagist.org/packages/hiqstd/flarum-ext-thai)
+[![Total Downloads](https://poser.pugx.org/hiqstd/flarum-ext-thai/downloads)](https://packagist.org/packages/hiqstd/flarum-ext-thai)
+[![License](https://poser.pugx.org/hiqstd/flarum-ext-thai/license)](https://packagist.org/packages/hiqstd/flarum-ext-thai)
 
 > แพคเกจภาษาไทยสำหรับ [Flarum](http://flarum.org/) ( ถูกนำกลับมาทำใหม่จากของเดิม [baraear/flarum-ext-thai](https://github.com/baraear/flarum-ext-thai) ซึ่งเป็นแพคเกจตัวแรกที่ถูกปล่อยให้ดาวน์โหลดใน [Flarum Community](https://discuss.flarum.org/) )
 
