@@ -6,7 +6,7 @@
 
 > แพคเกจภาษาไทยสำหรับ [Flarum](http://flarum.org/) ( ถูกนำกลับมาทำใหม่จากของเดิม [baraear/flarum-ext-thai](https://github.com/baraear/flarum-ext-thai) ซึ่งเป็นแพคเกจตัวแรกที่ถูกปล่อยให้ดาวน์โหลดใน [Flarum Community](https://discuss.flarum.org/) )
 
-**ความต้องการของระบบ**: Flarum 0.1.0-beta-7.*
+**ความต้องการของระบบ**: Flarum ^0.1.0-beta-7
 
 ## วิธีการใช้งาน
 [Flarum](http://flarum.org/) อาศัย [Composer](https://getcomposer.org/) เพื่อจัดการการ dependencies และ extensions แพคเกจภาษาไทยมีอยู่ใน [Packagist](https://packagist.org/packages/brarear/flarum-ext-thai) แล้วและสามารถจัดการได้ในลักษณะที่กำลังจะกล่าวถึง โดยคุณต้องตรวจสอบให้แน่ใจว่าได้ติดตั้ง Composer บนคอมพิวเตอร์ของคุณแล้วจากนั้นทำตามขั้นตอนต่อไปนี้
