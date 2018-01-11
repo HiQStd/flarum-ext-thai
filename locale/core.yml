@@ -9,102 +9,102 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      developer_text: "หากคุณเป็นนักพัฒนาซอฟต์แวร์คุณสามารถ <a>อ่านเอกสาร</a> และสร้างส่วนขยายของคุณเองได้"
+      install_text: "ในระหว่างนี้คุณสามารถหาส่วนขยายที่เว็บไซต์ <a>Flarum Community</a> และติดตั้งด้วยตนเองโดยใช้ Composer"
+      temporary_text: "วันหนึ่งในอนาคตอันใกล้กล่องโต้ตอบนี้จะช่วยให้คุณสามารถเพิ่มส่วนขยายลงในฟอรัมได้อย่างง่ายดาย เรากำลังสร้างในแบบที่เราพูด!"
+      title: เพิ่มส่วนขยาย
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      edit_header_button: Edit Custom Header
-      enter_hex_message: Please enter a hexadecimal color code.
-      favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      colored_header_label: สีส่วนหัว
+      colors_heading: สี
+      colors_text: "เลือกสองสีให้เหมาะกับฟอรัมของคุณ ส่วนแรกจะใช้เป็นสีไฮไลท์ในขณะที่ส่วนที่สองจะใช้เป็นองค์ประกอบพื้นหลัง"
+      custom_header_heading: ส่วนหัวที่กำหนดเอง
+      custom_header_text: "เพิ่ม HTML ที่จะแสดงที่ส่วนบนสุดของหน้าเหนือส่วนหัวของตัวเองของ Flarum"
+      custom_styles_heading: สไตล์ที่กำหนดเอง
+      custom_styles_text: ปรับแต่งรูปลักษณ์ของฟอรัมโดยการเพิ่มโค้ด LESS/CSS ของคุณเองเพื่อใช้กับ <a>รูปแบบดั้งเดิม</a> ของ Flarum
+      dark_mode_label: โหมดมืด
+      edit_css_button: แก้ไข CSS
+      edit_header_button: แก้ไขส่วนหัวที่กำหนดเอง
+      enter_hex_message: โปรดป้อนรหัสสี
+      favicon_heading: ไอคอนของฟอรัม
+      favicon_text: อัปโหลดภาพที่จะแสดงเป็นไอคอนของฟอรัม
+      logo_heading: โลโก้
+      logo_text: อัปโหลดภาพที่จะแสดงแทนชื่อฟอรัม
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: ภาษาเริ่มต้น
+      forum_description_heading: คำอธิบายฟอรั่ม
+      forum_description_text: ป้อนประโยคสั้น ๆ หรือเพื่ออธิบายถึงฟอรั่มของคุณซึ่งจะปรากฏในเมตาแท็กและปรากฏในเครื่องมือค้นหา
+      forum_title_heading: ชื่อฟอรัม
+      home_page_heading: หน้าหลัก
+      home_page_text: "เลือกหน้าแรกที่ผู้ใช้จะเห็นเมื่อเข้าสู่ฟอรัมของคุณ หากป้อนค่าที่กำหนดเองให้ใช้เส้นทางที่สัมพันธ์กับหน้าแรกของฟอรัม"
+      saved_message: บันทึกการเปลี่ยนแปลงของคุณแล้ว
+      show_language_selector_label: แสดงตัวเลือกภาษา
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: ข้อความต้อนรับ
+      welcome_banner_text: กำหนดข้อความที่แสดงในหน้ากระทู้ทั้งหมด ใช้สิ่งนี้เพื่อต้อนรับผู้เข้าชมฟอรัมของคุณ
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      beta_warning_text: "<strong>ซอฟต์แวร์เบต้า</strong> นี้มีไว้เพื่อให้คุณสามารถช่วยเราทดสอบและทำให้ดียิ่งขึ้น ไม่ควรนำมาใช้งานจริง"
+      contributing_text: "ต้องการหาข้อบกพร่องและมีส่วนร่วมหรือไม่ ? อ่าน <a>เอกสารที่เกี่ยวข้อง</a>"
+      extension_text: "สนใจในการพัฒนาส่วนขยายหรือไม่ ? อ่าน <a>เอกสารเกี่ยวกับส่วนขยาย</a>"
+      features_text: "มีแนวคิดในการปรับปรุงคุณลักษณะหรือไม่ ? บอกเราเกี่ยวกับเรื่องนี้ภายใต้แท็ก <a>Features</a>"
+      support_text: "พบข้อผิดพลาดหรือไม่ ? กรุณารายงานเรื่องนี้ในฟอรัมของเราภายใต้แท็ก <a>Support</a>"
+      troubleshooting_text: "มีปัญหาหรือไม่ ? ทำตามคำแนะนำใน <a>เอกสารเกี่ยวกับแก้ไขปัญหา</a>"
+      version_text: "ขอบคุณสำหรับการทดลองใช้งาน Flarum! คุณกำลังใช้งานรุ่น {version}"
+      welcome_text: "ยินดีต้อนรับสู่ Flarum รุ่นทดสอบ!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "ปรับแต่งรูปลักษณ์ของฟอรัมโดยการเพิ่มโค้ด LESS/CSS ของคุณเองเพื่อใช้กับ <a>รูปแบบดั้งเดิม</a> ของ Flarum"
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: แก้ไข CSS
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      color_label: สี
+      delete_button: ลบกลุ่ม
+      delete_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบกลุ่มนี้ ? สมาชิกในกลุ่มจะไม่ถูกลบ"
+      icon_label: ไอคอน
+      icon_text: "สามารถใส่ไอคอนของ <a>FontAwesome</a> ได้ <em>โดยไม่ต้องมี</em> <code>fa-</code> ข้างหน้า"
+      name_label: ชื่อกลุ่ม
+      plural_placeholder: พหูพจน์ (ตัวอย่าง Mods)
+      singular_placeholder: เอกพจน์ (ตัวอย่าง Mod)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: สร้างกลุ่ม
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      customize_text: "เพิ่ม HTML ที่จะแสดงที่ส่วนบนสุดของหน้าเหนือส่วนหัวของ Flarum"
       submit_button: => core.ref.save_changes
-      title: Edit Custom Header
+      title: แก้ไขส่วนหัวที่กำหนดเอง
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
-      addresses_heading: Addresses
-      driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
+      account_heading: บัญชี SMTP
+      addresses_heading: อีเมล
+      driver_label: ไดร์เวอร์
+      encryption_label: การเข้ารหัส
+      from_label: ผู้ส่ง
       heading: => core.ref.email
-      host_label: Host
+      host_label: โฮส
       password_label: => core.ref.password
-      port_label: Port
-      server_heading: SMTP Server
+      port_label: พอร์ต
+      server_heading: เซิฟเวอร์ SMTP
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: กำหนดการตั้งค่า SMTP ของฟอรัมคุณเพื่อใช้ส่งอีเมล
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: เพิ่มส่วนขยาย
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: ถอนการติดตั้ง
 
     # These translations are used in the session dropdown menu.
     header:
@@ -112,55 +112,55 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: โปรดรอสักครู่...
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      appearance_button: การแสดงผล
+      appearance_text: "ปรับแต่งสีโลโก้ฟอรัมของคุณและตัวแปรอื่น ๆ"
+      basics_button: ข้อมูลพื้นฐาน
+      basics_text: "ตั้งชื่อฟอรัม ภาษา และการตั้งค่าพื้นฐานอื่น ๆ"
+      dashboard_button: แผงควบคุม
+      dashboard_text: ดูข้อมูลฟอรัมของคุณได้อย่างรวดเร็ว
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "กำหนดการตั้งค่าอีเมลของฟอรัมของคุณ"
+      extensions_button: ส่วนขยาย
+      extensions_text: เพิ่มฟังก์ชันการทำงานพิเศษลงในฟอรัมและทำให้เป็นของคุณเอง
+      permissions_button: สิทธิ์
+      permissions_text: กำหนดผู้ที่สามารถมองเห็นและทำรายการต่างๆ
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      edit_and_delete_posts_label: Edit and delete posts
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      allow_renaming_label: อนุญาตให้เปลี่ยนชื่อ
+      allow_post_editing_label: อนุญาตให้แก้ไขโพสต์
+      create_heading: สร้าง
+      delete_discussions_forever_label: ลบกระทู้อย่างถาวร
+      delete_discussions_label: ลบกระทู้
+      delete_posts_forever_label: ลบโพสท์อย่างถาวร
+      edit_and_delete_posts_label: แก้ไขและลบโพสท์
+      global_heading: ทั้งหมด
+      moderate_heading: ผู้ดูแล
+      new_group_button: สร้างกลุ่มใหม่
+      participate_heading: มีส่วนร่วม
+      read_heading: อ่าน
+      rename_discussions_label: เปลี่ยนชื่อกระทู้
+      reply_to_discussions_label: ตอบกระทู้
+      sign_up_label: สมัครสมาชิก
+      start_discussions_label: ตั้งกระทู้
+      view_discussions_label: อ่านกระทู้
+      view_post_ips_label: ดูที่อยู่ IP ของโพสต์
+      view_user_list_label: ดูรายชื่อผู้ใช้
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: ไม่กำหนด
+      allow_some_minutes_button: "หลังจาก {count} นาที|หลังจาก {count} นาที"
+      allow_ten_minutes_button: หลังจาก 10 นาที
+      allow_until_reply_button: จนกว่าจะมีการตอบกลับ
+      everyone_button: ทุกคน
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: ปิด
+      signup_open_button: เปิด
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -168,8 +168,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Remove
-      upload_button: Choose an Image...
+      remove_button: ลบ
+      upload_button: เลือกรูปภาพ...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -179,76 +179,76 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: รหัสผ่านที่คุณป้อนไม่ถูกต้อง
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: ส่งอีเมลรีเซ็ตรหัสผ่าน
+      text: คลิกปุ่มด้านล่างและตรวจสอบอีเมลสำหรับลิงก์เพื่อเปลี่ยนรหัสผ่านของคุณ
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
+      close_tooltip: ปิด
+      exit_full_screen_tooltip: ออกจากโหมดเต็มจอ
+      full_screen_tooltip: โหมดเต็มจอ
+      minimize_tooltip: ย่อ
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: เขียนรายละเอียดกระทู้...
+      discard_confirmation: "กระทู้ของคุณยังไม่ถูกโพสต์ คุณต้องการยกเลิกหรือไม่ ?"
+      submit_button: ตั้งกระทู้
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: ชื่อกระทู้
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "คุณยังไม่ได้บันทึกการเปลี่ยนแปลงของคุณ คุณต้องการยกเลิกหรือไม่ ?"
+      post_link: "โพสท์ #{number} จาก {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
-      view_button: View
+      discard_confirmation: "การตอบกลับของคุณยังไม่ถูกโพสต์ คุณต้องการยกเลิกหรือไม่ ?"
+      posted_message: การตอบกลับของคุณถูกโพสต์แล้ว
+      submit_button: ตอบโพสต์
+      view_button: ดู
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: ไม่สามารถตอบกลับได้
+      cannot_reply_text: คุณไม่ได้รับอนุญาตให้ตอบกลับกระทู้นี้
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบกระทู้นี้ ?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบ
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: ดูเหมือนว่าไม่มีกระทู้ที่นี่
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: ทำเครื่องหมายว่าอ่านแล้ว
+      replied_text: "{username} ตอบกลับเมื่อ {ago}"
+      started_text: "{username} ตั้งกระทู้เมื่อ {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: เปิดใช้งานผู้ใช้
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: กลุ่มผู้ใช้
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: ตั้งรหัสผ่านใหม่
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: แก้ไขผู้ใช้
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -256,64 +256,64 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: เราได้ส่งอีเมลที่มีลิงก์เพื่อรีเซ็ตรหัสผ่านของคุณ ตรวจสอบโฟลเดอร์สแปมของคุณหากคุณไม่ได้รับจดหมายดังกล่าวภายในหนึ่งหรือสองนาทีข้างหน้า
+      not_found_message: ไม่มีผู้ใช้ที่ลงทะเบียนกับที่อยู่อีเมลนั้น
+      submit_button: กู้คืนรหัสผ่าน
+      text: ใส่ที่อยู่อีเมลของคุณแล้วเราจะส่งลิงค์เพื่อรีเซ็ตรหัสผ่านของคุณ
+      title: ลืมรหัสผ่าน
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to discussion list
+      admin_button: ตั้งค่าระบบ
+      back_to_index_tooltip: กลับไปยังรายการกระทู้
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: โปรไฟล์
+      search_placeholder: ค้นหา
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: ไม่สามารถสร้างกระทู้ใหม่ได้
+      mark_all_as_read_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการทำเครื่องหมายว่าอ่านแล้วทั้งหมดทุกกระทู้ ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: โหลดใหม่อีกครั้ง
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: อัพเดตล่าสุด
+      newest_button: ใหม่ล่าสุด
+      oldest_button: เก่าที่สุด
+      relevance_button: สัมพันธ์กัน
+      top_button: ตอบกลับมากที่สุด
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "ลืมรหัสผ่าน ?"
+      invalid_login_message: รายละเอียดการเข้าสู่ระบบของคุณไม่ถูกต้อง
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: จดจำฉัน
+      sign_up_text: "ยังไม่มีบัญชี ? <a>สมัครสมาชิก</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: ชื่อผู้ใช้หรืออีเมล
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} ได้ทำการเปลี่ยนชื่อ"
+      empty_text: ไม่มีการแจ้งเตือน
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_text: แก้ไขแล้ว
+      edited_tooltip: "{username} แก้ไขเมื่อ {ago}"
+      number_tooltip: "โพสท์ #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -324,98 +324,98 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: ล่าสุด
+      original_post_link: เริ่มต้น
+      unread_text: "{count} ไม่ได้อ่าน"
+      viewing_text: "{index} ใน {count} โพสท์|{index} ใน {count} โพสท์"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'ชื่อกระทู้ก่อนหน้านี้ "{old}"'
+      discussion_renamed_text: "{username} เปลี่ยนชื่อกระทู้เป็น {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period}ที่แล้ว"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rename Discussion
+      title: เปลี่ยนชื่อกระทู้
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'ค้นหาทุกกระทู้ด้วย "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: ผู้ใช้
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: บัญชี
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_by_web_heading: เว็บไซต์
+      notify_discussion_renamed_label: เมื่อมีคนเปลี่ยนชื่อกระทู้ของฉัน
+      privacy_disclose_online_label: อนุญาตให้คนอื่นเห็นเมื่อฉันออนไลน์
+      privacy_heading: ความเป็นส่วนตัว
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "มีบัญชีแล้วหรือยัง ? <a>เข้าสู่ระบบ</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "ยินดีต้อนรับคุณ {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
-      bio_placeholder: Write something about yourself
+      avatar_remove_button: ลบ
+      avatar_upload_button: อัพโหลด
+      avatar_upload_tooltip: อัพโหลดภาพโปรไฟล์ใหม่
+      bio_placeholder: เขียนบางอย่างเกี่ยวกับตัวคุณ...
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      in_discussion_text: "ใน {discussion}"
+      joined_date_text: "เข้าร่วมเมื่อ {ago}"
+      online_text: ออนไลน์
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: โพสท์
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: การจัดการ
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบผู้ใช้คนนี้ ? โพสต์ทั้งหมดของเขาจะถูกลบเช่นกัน"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: ส่งอีเมลยืนยันอีกครั้ง
+      sent_message: ส่งแล้ว
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: ซ่อน
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[ลบแล้ว]"
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง"
+      not_found_message: ไม่พบแหล่งข้อมูลที่ร้องขอ
+      permission_denied_message: คุณไม่ได้รับอนุญาตให้ทำเช่นนั้น
+      rate_limit_exceeded_message: คุณกำลังทำการอย่างรวดเร็วเกินไป โปรดลองอีกครั้งหลังจากนี้สักครู่
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -425,22 +425,22 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, และ {third}"
+      two_text: "{first} และ {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      javascript_disabled_message: เว็บไซต์นี้ดูดีที่สุดในเบราว์เซอร์สมัยใหม่และเปิดใช้งาน JavaScript
+      load_error_message: เกิดข้อผิดพลาดขณะพยายามโหลดเวอร์ชันเต็มของเว็บไซต์นี้
+      loading_text: กำลังโหลด...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: หน้าที่แล้ว
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -451,54 +451,54 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: รีเซ็ตรหัสผ่าน
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "ชื่อผู้ใช้จะต้องประกอบด้วยตัวอักษรตัวเลขและขีดกลางเท่านั้น"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: เปิดใช้งานบัญชีใหม่ของคุณ
       body: |
-        Hey {username}!
+        สวัสดี {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        บางคน(หวังว่าจะเป็นคุณ!) ได้สมัครสมาชิกเพื่อใช้งาน {forum} ด้วยที่อยู่อีเมลนี้
 
-        If this was you, simply click the following link and your account will be activated:
+        ถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และบัญชีของคุณจะถูกเปิดใช้งาน
         {url}
 
-        If you did not sign up, please ignore this email.
+        หากคุณไม่ได้สมัครสมาชิกเพื่อใช้งานโปรดละเว้นอีเมลนี้
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: ยืนยันที่อยู่อีเมลใหม่ของคุณ
       body: |
-        Hey {username}!
+        สวัสดี {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        บางคน(หวังว่าจะเป็นคุณ!) ได้เปลี่ยนที่อยู่อีเมลของพวกเขาใน {forum} เป็นที่อยู่อีเมลนี้
 
-        If this was you, simply click the following link and your email will be confirmed:
+        ถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และอีเมลของคุณจะได้รับการยืนยัน
         {url}
 
-        If this was not you, please ignore this email.
+        หากคุณไม่ใช่คุณโปรดละเว้นอีเมลนี้
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        สวัสดี {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        บางคน(หวังว่าจะเป็นคุณ!) ได้ส่งคำขอรหัสผ่านที่ลืมสำหรับบัญชีของคุณบน {forum}
 
-        If this was you, click the following link to reset your password:
+        ถ้าเป็นคุณให้คลิกลิงก์ต่อไปนี้เพื่อรีเซ็ตรหัสผ่านของคุณ
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        หากคุณไม่ต้องการเปลี่ยนรหัสผ่านเพียงละเว้นอีเมลนี้และจะไม่มีอะไรเกิดขึ้น
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -506,36 +506,36 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    all_discussions: กระทู้ทั้งหมด
+    change_email: เปลี่ยนอีเมล
+    change_password: เปลี่ยนรหัสผ่าน
+    confirm_password: ยืนยันรหัสผ่าน
+    confirmation_email_sent: "เราได้ส่งอีเมลยืนยันไปยัง {email} แล้ว ถ้าไม่มาถึงเร็ว ๆ นี้ให้ตรวจสอบโฟลเดอร์สแปมของคุณ"
+    delete: ลบ
+    delete_forever: ลบอย่างถาวร
+    discussions: กระทู้
+    edit: แก้ไข
+    email: อีเมล
+    load_more: แสดงเพิ่มเติม
+    log_in: เข้าสู่ระบบ
+    log_out: ออกจากระบบ
+    mark_all_as_read: ทำเครื่องหมายว่าอ่านแล้วทั้งหมด
+    next_page: หน้าถัดไป
+    notifications: การแจ้งเตือน
+    okay: ตกลง                                     # Referenced by flarum-tags.yml
+    password: รหัสผ่าน
+    rename: เปลี่ยนชื่อ
+    reply: ตอบกลับ                                 # Referenced by flarum-mentions.yml
+    reset_your_password: รีเซ็ตรหัสผ่านของคุณ
+    restore: กู้คืน
+    save_changes: บันทึกการเปลี่ยนแปลง                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: ตั้งค่า
+    sign_up: สมัครสมาชิก
+    some_others: "{count} คนอื่นๆ|{count} คนอื่นๆ"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: ตั้งกระทู้ใหม่
+    username: ชื่อผู้ใช้
+    write_a_reply: เขียนข้อความตอบกลับ...
+    you: คุณ                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -543,11 +543,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: ผู้ดูแลระบบ
+    admins: ผู้ดูแลระบบ
+    guest: ผู้มาเยือน
+    guests: ผู้มาเยือน
+    member: สมาชิก
+    members: สมาชิก
+    mod: ผู้ดูแล
+    mods: ผู้ดูแล

@@ -22,7 +22,7 @@
             "dev-master": "0.1.0-beta.7"
         },
         "flarum-extension": {
-            "title": "Thai language pack",
+            "title": "ภาษาไทย",
             "icon": {
                 "image": "icon.png",
                 "backgroundColor": "#00247d",
@@ -32,7 +32,7 @@
         },
         "flarum-locale": {
             "code": "th",
-            "title": "Thai"
+            "title": "ภาษาไทย"
         }
     }
 }
