@@ -1,0 +1,35 @@
+{
+    "name": "hiqstd/flarum-ext-thai",
+    "description": "The Flarum extension for support Thai language pack.",
+    "type": "flarum-extension",
+    "keywords": ["locale", "localization"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baraear",
+            "email": "baraear@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hiqstd/flarum-ext-thai/issues",
+        "source": "https://github.com/hiqstd/flarum-ext-thai"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Thai language pack",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "th",
+            "title": "Thai"
+        }
+    }
+}
